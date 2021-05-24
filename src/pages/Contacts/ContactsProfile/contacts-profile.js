@@ -213,9 +213,9 @@ const ContactsProfile = props => {
                         <WeavyApp
                           spaceKey="react-space"
                           spaceName="React Space"
-                          appKey="react-comments"
+                          appKey="react-tasks"
                           appName="React tasks"
-                          appType="comments"
+                          appType="tasks"
                           height="600px"
                         />
                      </div>
@@ -229,9 +229,9 @@ const ContactsProfile = props => {
                         <WeavyApp
                           spaceKey="react-space-contact"
                           spaceName="React Space"
-                          appKey="contact-posts"
+                          appKey="contact-files"
                           appName="Contact files"
-                          appType="posts"
+                          appType="files"
                           height="600px"
                         />
                      </div>
