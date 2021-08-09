@@ -4,6 +4,7 @@ import { Redirect } from "react-router-dom"
 // // Pages Component
 import Chat from "../pages/Chat/Chat"
 import Files from "../pages/Files/Files"
+import Tasks from "../pages/Tasks/Tasks"
 // Dashboard
 import Dashboard from "../pages/Dashboard/index"
 
@@ -128,6 +129,7 @@ const userRoutes = [
   //chat
   { path: "/chat", component: Chat },
   { path: "/files", component: Files },
+  { path: "/tasks", component: Tasks },
 
   //Ecommerce
   { path: "/ecommerce-products", component: EcommerceProducts },

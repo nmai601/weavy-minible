@@ -132,7 +132,15 @@ const SidebarContent = props => {
                 <span>{props.t("Files")}</span>
               </Link>
             </li>
-
+            <li>
+              <Link to="/tasks" className="waves-effect">
+                <i className="uil-clipboard-notes"></i>
+                <span className="badge rounded-pill bg-warning float-end">
+                  {props.t("New")}
+                </span>
+                <span>{props.t("Tasks")}</span>
+              </Link>
+            </li>
             <li>
               <Link to="/#" className="has-arrow waves-effect">
                 <i className="uil-store"></i>

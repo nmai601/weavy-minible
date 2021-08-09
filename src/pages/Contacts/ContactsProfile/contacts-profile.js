@@ -211,10 +211,10 @@ const ContactsProfile = props => {
                   <Weavy jwt={token}>
                      <div className="App" >
                         <WeavyApp
-                          spaceKey="react-space"
+                          spaceKey="react-space-contact"
                           spaceName="React Space"
-                          appKey="react-tasks"
-                          appName="React tasks"
+                          appKey="contact-tasks"
+                          appName="Contact tasks"
                           appType="tasks"
                           height="600px"
                         />
